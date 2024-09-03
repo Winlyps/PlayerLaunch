@@ -1,0 +1,9 @@
+name: PlayerLaunch
+version: '1.0-SNAPSHOT'
+main: winlyps.playerLaunch.PlayerLaunch
+api-version: '1.20'
+authors: [ Winlyps ]
+commands:
+  playerlaunch:
+    description: Launches a player into the sky
+    usage: /playerlaunch <player>
