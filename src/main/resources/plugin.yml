@@ -7,3 +7,8 @@ commands:
   playerlaunch:
     description: Launches a player into the sky
     usage: /playerlaunch <player>
+    permission: playerlaunch.use
+permissions:
+  playerlaunch.use:
+    description: Allows the player to use the /playerlaunch command
+    default: op
